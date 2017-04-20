@@ -43,3 +43,46 @@
 #define MSG_PARAM_PRES "Inserte la precisión\n"
 #define MSG_ERROR "El carácter ingresado no es válido.\n"
 
+
+
+
+
+
+
+
+#define SYMBOL_EXIT_MENU_OPTION "0."
+#define SYMBOL_FST_OPTION "1."
+#define SYMBOL_SND_OPTION "2."
+#define SYMBOL_TRD_OPTION "3."
+#define SYMBOL_4TH_OPTION "4."
+#define SYMBOL_5TH_OPTION "5."
+#define SYMBOL_6TH_OPTION "6."
+#define SYMBOL_7TH_OPTION "7."
+
+
+#define MSG_MAIN_MANU_FST_OPTION "Muestrear"
+#define MSG_MAIN_MANU_EXIT_OPTION "Salir del programa"
+
+#define MSG_FUNC_MENU_FST_OPTION "Senoidal"
+#define MSG_FUNC_MENU_SND_OPTION "Logarítmica"
+#define MSG_FUNC_MENU_TRD_OPTION "Logarítmica lineal"
+#define MSG_FUNC_MENU_4TH_OPTION "Exponencial"
+#define MSG_FUNC_MENU_5TH_OPTION "Escalón"
+#define MSG_FUNC_MENU_6TH_OPTION "Movimiento rectilíneo unifórmemente acelerado"
+#define MSG_FUNC_MENU_7TH_OPTION "Paraboloide"
+#define MSG_FUNC_MENU_EXIT_OPTION "Volver al menú principal"
+#define MSG_ASK_OPTION_FUNC_MENU "Por favor, ingrese el número de opción de la función que quiere muestrear"
+
+#define OPTION_EXIT 0
+#define OPTION_FST 1
+#define OPTION_SND 2
+#define OPTION_TRD 3
+#define OPTION_4TH 4
+#define OPTION_5TH 5
+#define OPTION_6TH 6
+#define OPTION_7TH 7
+
+#define MSG_SAMPLE_ENDING "Se ha realizado el muestreo correctamente, por favor elija una de las siguientes opciones:"
+#define MSG_SAMPLE_ENDING_FST_OPTION "Volver a muestrear con distintos parámetros"
+#define MSG_SAMPLE_ENDING_SND_OPTION "Muestrear otra función con los mismo parámetros"
+#define MSG_SAMPLE_ENDING_EXIT_OPTION "Salir del programa"
