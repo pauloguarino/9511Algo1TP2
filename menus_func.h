@@ -19,7 +19,7 @@ void imprimir_menu_principal(void){
 }
 
 void pedir_tiempo_inicial(float * ti){
-	printf("%s", MSG_PARAM_TI);								
+	printf("%s\n", MSG_PARAM_TI);								
 	scanf("%f", &ti);
 }
 
@@ -35,7 +35,7 @@ void pedir_muestreo(int* muestreo){
 	{
 		printf("%s\n", MSG_PARAM_MUEST);		
 		scanf("%d", muestreo);
-	}while (*muestreo <= 0);
+	}while (*muestreo <= MIN_CANT_SAMPLE_VALUE);
 }
 
 void pedir_precision(int* precision){
@@ -44,7 +44,7 @@ void pedir_precision(int* precision){
 		printf("%s\n", MSG_PARAM_PRES);				
 		scanf("%d", &precision);
 	}
-	while (precision <= 0);
+	while (precision <= MIN_PRECIS_VALUE);
 }
 void imprimir_menu_funciones(void){
 	printf("%s\n", MSG_ASK_OPTION_FUNC_MENU);

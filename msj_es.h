@@ -22,26 +22,26 @@
 
 #define MSG_LOG10_DESCRIP "La función logarítmica en base diez es de la siguiente forma:\n\nlog (x)\n\n"
 
-#define MSG_LOGLINEAL_DESCRIP "La función loglineal en base diez es de la siguiente forma:\n\n n * log (n)\n\n"
+#define MSG_LOGLINEAL_DESCRIP "La función loglineal en base diez es de la siguiente forma: n * log (n)"
 
-#define MSG_SENOIDAL_DESCRIP "La función senoidal es de la siguiente forma: \n\nA * sen ((2π * f * t) + ø)\n\nSiendo, A la amplitud, f la frecuencia y ø el ángulo de desfasaje\n"
-#define MSG_SENOIDAL_AMP "Ingrese la Amplitud deseada, esta determinará el valor absoluto de los extremos de la funcion\n"
-#define MSG_SENOIDAL_FREQ "Ingrese la frecuencia, esta determinará la rapidez angular\n"
-#define MSG_SENOIDAL_PHI "Ingrese el ángulo inicial de desfasaje\n"
+#define MSG_SENOIDAL_DESCRIP "La función senoidal es de la siguiente forma: A * sen ((2π * f * t) + ø)Siendo, A la amplitud, f la frecuencia y ø el ángulo de desfasaje"
+#define MSG_SENOIDAL_AMP "Ingrese la Amplitud deseada, esta determinará el valor absoluto de los extremos de la funcion"
+#define MSG_SENOIDAL_FREQ "Ingrese la frecuencia, esta determinará la rapidez angular"
+#define MSG_SENOIDAL_PHI "Ingrese el ángulo inicial de desfasaje"
 
-#define MSG_SEGUIR "Si desea dejar de muestrear ingrese 0. Si desea continuar ingrese cualquier tecla.\n"
-#define MSG_MENU_PRINCIPAL "1.Muestrear \n0.Salir del programa\n"
-#define MSG_FUNCIONES "\n 1.Senoidal \n 2.Logarítmica \n 3.Logarítmica lineal \n 4.Exponencial \n 5.Escalón \n 6.Movimiento rectilíneo unifórmemente acelerado \n 7.Paraboloide \n 0.Volver al menú principal\n"
-#define MSG_REASIG1 "Los siguientes son los valores de los parámetros de muestreo (tiempo inicial, tiempo final, número de muestras y presición respectivamente) asignados previamente: \n \n"
-#define MSG_REASIG2 "Ingrese 1 si quiere mantener estos mismos valores para el próximo muestreo.\n"
-#define MSG_CONFIR1 "Los siguientes son los valores de los parámetros de muestreo (tiempo inicial, tiempo final, número de muestras y presición respectivamente) elegidos: \n"
-#define MSG_CONFIR2 "Ingrese 1 para confirmar que desea usar estos valores.\n"
-#define MSG_NUEVO_INGRESO "Por favor, elija una de las opciones disponibles. \n"
+#define MSG_SEGUIR "Si desea dejar de muestrear ingrese 0. Si desea continuar ingrese cualquier tecla."
+#define MSG_MENU_PRINCIPAL "1.Muestrear \n0.Salir del programa"
+#define MSG_FUNCIONES "\n 1.Senoidal \n 2.Logarítmica \n 3.Logarítmica lineal \n 4.Exponencial \n 5.Escalón \n 6.Movimiento rectilíneo unifórmemente acelerado  7.Paraboloide  0.Volver al menú principal"
+#define MSG_REASIG1 "Los siguientes son los valores de los parámetros de muestreo (tiempo inicial, tiempo final, número de muestras y presición respectivamente) asignados previamente: "
+#define MSG_REASIG2 "Ingrese 1 si quiere mantener estos mismos valores para el próximo muestreo."
+#define MSG_CONFIR1 "Los siguientes son los valores de los parámetros de muestreo (tiempo inicial, tiempo final, número de muestras y presición respectivamente) elegidos: "
+#define MSG_CONFIR2 "Ingrese 1 para confirmar que desea usar estos valores."
+#define MSG_NUEVO_INGRESO "Por favor, elija una de las opciones disponibles. "
 	
-#define MSG_PARAM_TI "Inserte tiempo inicial\n"
-#define MSG_PARAM_MUEST "Inserte un número de muestras mayor a 0\n"
-#define MSG_PARAM_PRES "Inserte la precisión\n"
-#define MSG_ERROR "El carácter ingresado no es válido.\n"
+#define MSG_PARAM_TI "Inserte tiempo inicial"
+#define MSG_PARAM_MUEST "Inserte un número de muestras mayor a 0"
+#define MSG_PARAM_PRES "Inserte la precisión"
+#define MSG_ERROR "El carácter ingresado no es válido."
 
 
 
@@ -86,3 +86,6 @@
 #define MSG_SAMPLE_ENDING_FST_OPTION "Volver a muestrear con distintos parámetros"
 #define MSG_SAMPLE_ENDING_SND_OPTION "Muestrear otra función con los mismo parámetros"
 #define MSG_SAMPLE_ENDING_EXIT_OPTION "Salir del programa"
+
+#define MIN_CANT_SAMPLE_VALUE 0
+#define MIN_PRECIS_VALUE 0
