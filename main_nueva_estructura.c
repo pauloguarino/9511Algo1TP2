@@ -85,6 +85,7 @@ int main (void)
 					default: 	
 						printf("%s\n", MSG_NUEVO_INGRESO);			
 				}
+				break;
 
 			case ST_SMPLE_ENDING_MENU:
 				imprimir_menu_finalizado_muestreo();
